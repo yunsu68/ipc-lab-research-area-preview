@@ -220,3 +220,4 @@ a:focus-visible { outline: 3px solid #7fb0e6; outline-offset: 3px; border-radius
 
 /* Preview for the Google Site embed: the site already has its own header. */
 .site-head { display: none; }
+.embed-foot { margin-top: 48px; padding: 16px; border-top: 0; }
