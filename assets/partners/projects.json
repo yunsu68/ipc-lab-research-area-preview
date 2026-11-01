@@ -1,0 +1,85 @@
+[
+ {
+  "app": "ai",
+  "title": "High-performance accelerator power delivery (MBVR + IVR)",
+  "partner": "Samsung Electronics (System LSI)",
+  "logo": "samsung.png",
+  "mark": "Samsung",
+  "period": "2025.10 – 2028.09"
+ },
+ {
+  "app": "ai",
+  "title": "Power electronics for high-performance AI semiconductors: component, circuit, architecture and system",
+  "partner": "National Research Foundation of Korea (NRF) · Outstanding Young Scientist Grant",
+  "logo": "nrf.svg",
+  "mark": "NRF",
+  "period": "Since 2025.03"
+ },
+ {
+  "app": "ev",
+  "title": "Electric-vehicle charging architectures (vehicle-to-vehicle charging)",
+  "partner": "Hyundai Motor Company",
+  "logo": "hyundai.png",
+  "mark": "Hyundai",
+  "period": "Since 2026.03"
+ },
+ {
+  "app": "ev",
+  "title": "Matrix-type power conversion for electric vehicles",
+  "partner": "Hyundai Motor Company",
+  "logo": "hyundai.png",
+  "mark": "Hyundai",
+  "period": ""
+ },
+ {
+  "app": "ev",
+  "title": "Next-generation magnetic components for electric vehicles",
+  "partner": "Consortium led by Chang Sung Corporation, with Hyundai Motor Company and research institutes",
+  "logo": "changsung.png",
+  "mark": "Chang Sung",
+  "period": "Selected 2026"
+ },
+ {
+  "app": "humanoids",
+  "title": "SMA–motor hybrid actuation for humanoid robots",
+  "partner": "Korea Institute of Machinery and Materials (KIMM)",
+  "logo": "kimm.png",
+  "mark": "KIMM",
+  "period": "Since 2025.04"
+ },
+ {
+  "app": "rf",
+  "title": "High-performance RF power amplifier and impedance matching systems",
+  "partner": "Samsung Research",
+  "logo": "samsung.png",
+  "mark": "Samsung",
+  "period": "Since 2025.04 · renewed 2026.04"
+ },
+ {
+  "app": null,
+  "area": "Digital Twin",
+  "title": "Digital twin of network power supplies",
+  "partner": "Samsung Electronics (Network)",
+  "logo": "samsung.png",
+  "mark": "Samsung",
+  "period": "Since 2025.09"
+ },
+ {
+  "app": null,
+  "area": "Aerospace",
+  "title": "Power processing unit (PPU) for ion thrusters",
+  "partner": "Korea Aerospace Research Institute (KARI) · Co-PI",
+  "logo": "kari.svg",
+  "mark": "KARI",
+  "period": "Since 2025.03"
+ },
+ {
+  "app": null,
+  "area": "Power conversion",
+  "title": "Power conversion research",
+  "partner": "Korea Electronics Technology Institute (KETI)",
+  "logo": "keti.png",
+  "mark": "KETI",
+  "period": ""
+ }
+]
