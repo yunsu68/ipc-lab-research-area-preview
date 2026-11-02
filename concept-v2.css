@@ -229,5 +229,8 @@ a:focus-visible { outline: 3px solid #7fb0e6; outline-offset: 3px; border-radius
 .proj-done .proj-list li { opacity: .82; }
 .proj-empty { display: block !important; padding: 16px 0; color: var(--mute); font-size: 14.5px; }
 
+/* width/height attributes only reserve space; CSS sets the displayed size */
+.app img, .app-next img, .scale-item img, .proj-logo img { height: auto; }
+
 /* Embed version for the Google Site */
 .embed-foot { margin-top: 48px; padding: 16px; border-top: 0; }
