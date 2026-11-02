@@ -11,7 +11,7 @@
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const period = p => p.start && p.end ? `${p.start} – ${p.end}` : p.start ? (p.status === 'completed' ? p.start : `Since ${p.start}`) : (p.end || '');
   const logo = p => !p.logo ? `<span class="mark">${esc(p.partner_short || p.partner)}</span>`
-    : `<img src="${/^https?:/.test(p.logo) ? esc(p.logo) : prefix + 'assets/partners/' + esc(p.logo)}" alt="${esc(p.partner_short || p.partner)}" loading="lazy">`;
+    : `<img src="${/^(https?:|data:)/.test(p.logo) ? esc(p.logo) : prefix + 'assets/partners/' + esc(p.logo)}" alt="${esc(p.partner_short || p.partner)}" loading="lazy">`;
   const row = p => {
     let tag = '';
     if (!app) tag = APPS[p.app] ? `<a class="proj-app" href="${prefix}applications/${APPS[p.app][1]}.html">${APPS[p.app][0]}</a>` : (p.area ? `<span class="proj-app">${esc(p.area)}</span>` : '');
