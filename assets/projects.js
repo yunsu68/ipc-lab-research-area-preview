@@ -18,7 +18,7 @@
     const per = period(p);
     return `<li><span class="proj-logo">${logo(p)}</span><div class="proj-copy"><h3>${esc(p.title)}</h3><p>${tag}${esc(p.partner)}</p></div>${per ? `<span class="proj-period">${esc(per)}</span>` : ''}</li>`;
   };
-  fetch(url + (url.includes('?') ? '&' : '?') + (app ? 'app=' + encodeURIComponent(app) : 'all=1'))
+  fetch(url + (url.includes('?') ? '&' : '?') + (app ? 'app=' + encodeURIComponent(app) : 'all=1') + '&_=' + Date.now(), { cache: 'no-store' })
     .then(r => r.ok ? r.json() : Promise.reject(r.status))
     .then(d => {
       const items = (d.projects || []).filter(p => !app || p.app === app).sort((a, b) => (+a.order || 999) - (+b.order || 999));
