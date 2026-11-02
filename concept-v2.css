@@ -218,6 +218,5 @@ a:focus-visible { outline: 3px solid #7fb0e6; outline-offset: 3px; border-radius
 .proj-copy a.proj-app { text-decoration: none; }
 .proj-copy a.proj-app:hover { text-decoration: underline; }
 
-/* Preview for the Google Site embed: the site already has its own header. */
-.site-head { display: none; }
+/* Embed version for the Google Site */
 .embed-foot { margin-top: 48px; padding: 16px; border-top: 0; }

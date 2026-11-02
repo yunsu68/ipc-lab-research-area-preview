@@ -1,5 +1,7 @@
 # Application images (concept-v3)
 
+- **Current (2026-11-02):** `*-photo.webp` are illustrative images generated with ChatGPT image generation in the reference style the user supplied (picks G-A1, G-B1, G-C1, G-D2, G-E2; originals in `photo-candidates/generated/`). The notes below describe earlier versions.
+
 - Application photos (`*-photo.webp`): `ai-photo.webp` and `wpt-photo.webp` are the lab's own photos (IPC VR board with CPU; WPT coil prototype), taken from the research-area-photos branch of Hoonjoon0501/IPC_Lab. The other three are Wikimedia Commons photos (CC0 / CC BY), the same set as concept-v2; credits below (the AI and WPT entries below no longer apply). `*-hero.webp` (the 2026-09-21 illustrations) and `*-card.svg` (system diagrams) are kept but not used.
 - Topic figures are the lab's own 3D renders (`tools/render-research.html`) and the resonance chart generated in `tools/build-apps.py`.
 - Partner logos in `../partners/` are copied from the 2026-09-21 site (`original/assets/projects/`).

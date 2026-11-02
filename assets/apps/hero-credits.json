@@ -1,31 +1,22 @@
 {
  "ai": {
   "own": true,
-  "text": "IPC voltage regulator board with a CPU (KAIST IPC Lab)"
+  "text": "AI data center aisle with server racks (illustrative image generated with ChatGPT)"
  },
  "ev": {
-  "title": "Electric charging of Tokyo Gas car 2.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Electric_charging_of_Tokyo_Gas_car_2.jpg",
-  "license": "CC0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "artist": "Syced"
+  "own": true,
+  "text": "Electric car charging at a station at dusk (illustrative image generated with ChatGPT)"
  },
  "humanoids": {
-  "title": "Humanoid robot at Science Square Tsukuba 4.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Humanoid_robot_at_Science_Square_Tsukuba_4.jpg",
-  "license": "CC0",
-  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "artist": "Syced"
+  "own": true,
+  "text": "Humanoid robot in a laboratory (illustrative image generated with ChatGPT)"
  },
  "rf": {
-  "title": "WEST fish-eye lens.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:WEST_fish-eye_lens.jpg",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "artist": "Christopher Roux, EUROfusion"
+  "own": true,
+  "text": "RF power amplifier module on a lab bench (illustrative image generated with ChatGPT)"
  },
  "wpt": {
   "own": true,
-  "text": "Low-coupling wireless power transfer coil prototype (KAIST IPC Lab)"
+  "text": "Wireless power transfer between two coils (illustrative image generated with ChatGPT)"
  }
 }
