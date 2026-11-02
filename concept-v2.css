@@ -276,5 +276,24 @@ a:focus-visible { outline: 3px solid #7fb0e6; outline-offset: 3px; border-radius
 /* No own header/footer: the page is shown inside the lab Google Site */
 .embed-foot { margin-top: 48px; padding: 16px; border-top: 0; }
 
+/* Comparison row v3: columns sized to content, one equal gap, arrows centred in the gaps on the image axis */
+@media (min-width: 641px) {
+  .scale-row { grid-template-columns: max-content 1fr max-content 1fr max-content; gap: 0 10px; justify-content: center; }
+  .scale-item .pic { height: 118px; }
+  .scale-item .pic img.s-discrete { width: 160px; max-width: none; max-height: none; }
+  .scale-item .pic img.s-ipc { width: 104px; max-width: none !important; max-height: none; }
+  .scale-item .pic img.s-pmic { width: 30px; max-height: none; }
+  .scale-arrow { display: block; align-self: start; margin-top: 54px; justify-self: center; }
+  .scale-arrow svg { width: 30px !important; }
+  .scale-item .ruler { width: 100%; }
+  .traits li { font-size: 11px; }
+}
+@media (min-width: 1001px) { .hero { grid-template-columns: minmax(0, .86fr) minmax(0, 1.14fr); } }
+@media (min-width: 1001px) and (max-width: 1240px) {
+  .scale-item .pic img.s-discrete { width: 128px; } .scale-item .pic img.s-ipc { width: 88px; }
+  .scale-arrow svg { width: 20px !important; }
+  .traits li { font-size: 10px; }
+}
+
 /* Embed version for the Google Site */
 .embed-foot { margin-top: 48px; padding: 16px; border-top: 0; }
